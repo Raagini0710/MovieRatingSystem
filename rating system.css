@@ -1,0 +1,49 @@
+.common1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.common2{
+    border: solid 2px black;
+    height: 850px;
+    width: 320px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 20px;
+}
+.name{
+    padding: 10px;
+}
+.para{
+    height:150px
+}
+
+.rating{
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+}
+.images:hover{
+    transform: scale(1.1);
+}
+.rating-box {
+    position: relative;
+    bottom:30px;
+    /* background: white; */
+    padding: 10px 10px 10px;
+  }
+  header {
+    font-size: 22px;
+    color:black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .stars {
+  display: flex;
+  font-size: 45px;
+  cursor: pointer;
+  align-items: center;
+  gap: 20px;
+  width:250px;
+  /* text-align: center; */
+ 
+  }
